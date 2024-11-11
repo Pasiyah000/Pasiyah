@@ -1,8 +1,8 @@
 
 const envv2 = require('./config-db')
-var GITHUB_AUTH_TOKEN;
-var GITHUB_USERNAME;
-var SESSION_ID;
+var GITHUB_AUTH_TOKEN;"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"
+var GITHUB_USERNAME;"shanuwa26"
+var SESSION_ID;"𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=jihT2BCA#QWlFCsCnq5nrO_R-40y8-ulgkZByhCuevvp7w1jeyIM"
 
 const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
