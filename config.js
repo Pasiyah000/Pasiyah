@@ -5,10 +5,10 @@ var GITHUB_USERNAME;
 var SESSION_ID;
 
 const fs = require('fs');
-if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
+if (fs.existsSync('config.env')) require('dotenv').config({ path:𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=qjBUya7Z#DSs6gm0LReHsAUwDAM1W9wmN3nuBJvx5Nv989qTpCTM './config.env' });
 
 function convertToBool(text, fault = 'true') {
-    return text === fault ? true : false;
+    return text === fault ? true :𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=qjBUya7Z#DSs6gm0LReHsAUwDAM1W9wmN3nuBJvx5Nv989qTpCTM false;
 }
 
 if(process.env.GITHUB_AUTH_TOKEN){
